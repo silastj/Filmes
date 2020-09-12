@@ -12,3 +12,26 @@ body{
 .lists{
   margin-top:-150px;
 }
+.footerDice{
+  display: flex;
+  justify-content: center;
+}
+.footerDice a{
+  font-weight: 600;;
+  color: #fff;
+  font-size: 21px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.loading{
+  position: fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  z-index: 99;
+  background-color:#000;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -75,3 +75,24 @@
     font-size:18px;
     color:#999;
 }
+
+@media screen and (max-width:768px){
+    .featured--name{
+        font-size: 28px;
+    }
+    .featured--description {
+        max-width:100%;
+    }
+    .featured--horizontal{
+        padding: 70px 10px 150px 10px;
+    }
+    .featured--info{
+        display: flex;
+        flex-direction: column;
+    }
+    .featured--buttons a{
+        width: 100%;
+        text-align: center;
+        margin:5px 0;
+    }
+}

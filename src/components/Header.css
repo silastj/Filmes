@@ -20,3 +20,8 @@ header.black{
 header img{
     width:40px;
 }
+@media screen and (max-width:768px){
+    header {
+        padding: 5px 10px;
+    }
+}
