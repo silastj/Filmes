@@ -10,7 +10,7 @@ export default ({black}) => {
                 </a>
             </div>
             <div className="user">
-                <a href="">
+                <a href="/">
                     <img src="/assets/img/userLogado.png" alt="Usuario"/>
                 </a>
             </div>

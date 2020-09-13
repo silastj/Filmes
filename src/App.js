@@ -71,13 +71,13 @@ export default () => {
       </section>
       <footer>
         <div className="footerDice">
-          <a href="https://www.asilas.com.br" target="_blank">asilas.com.br</a>
+          <a href="https://www.asilas.com.br">asilas.com.br</a>
         </div>
       </footer>
 
           {movieList.length <= 0 &&
                <div className="loading">
-               <img src="https://media1.tenor.com/images/1fe36998add400322db6aae8612d3fcf/tenor.gif?itemid=15122473" at="Carregando"/>
+               <img src="https://media1.tenor.com/images/1fe36998add400322db6aae8612d3fcf/tenor.gif?itemid=15122473" alt="Carregando"/>
              </div>
           } 
 
