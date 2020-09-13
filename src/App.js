@@ -15,7 +15,10 @@ export default () => {
     const loadAll = async () => {
       //Pegando a lista Total
       let list = await Tmdb.getHomeList();
-      setMovieList(list);
+      setTimeout(function(){
+        setMovieList(list);
+      }, 3500);
+     
 
       //Pegando o Featured
       let originals = list.filter(i=>i.slug === 'originals');

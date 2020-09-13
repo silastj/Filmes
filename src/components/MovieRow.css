@@ -53,8 +53,17 @@
     transition: .3s ease-in;
 }
 
-/* @media screen and (max-width:768px){
+@media screen and (max-width:768px){
     .movieRow-listarea{
         overflow-x: scroll;
     }
-} */
+    .movieRow--left,
+    .movieRow--right{
+        opacity: 0;
+        width:40px;
+    }
+    .movieRow h2{
+        margin: 0px 0px 0px 10px;
+        font-size: 21px;
+    }
+}
